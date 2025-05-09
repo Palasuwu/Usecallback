@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .card, .child {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #ffd700;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #6e5902;
+    
+  }
