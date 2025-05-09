@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f8f8f8;
+    background: #000000;
     padding: 2rem;
     color: #333;
   }
@@ -8,19 +8,37 @@ body {
   .container {
     max-width: 600px;
     margin: auto;
+    border-radius: 4px;
   }
   
   .card, .child {
-    background: white;
+    background-color: lightblue;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-left: 5px solid #ffd700;
+    border-top: 5px solid #00b7ff;
+    border-radius: 4px ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-top: 5px solid #00b7ff;
+    border-radius: 4px ;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   
+  .card:hover {
+
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    transform: scale(1.02);}
+
+.card, .child:hover {
+    box-shadow: 0 0 8px rgb(0, 88, 250);
+    transform: scale(1.02);
+  }
   button {
     padding: 0.5rem 1rem;
-    background-color: #ffcc00;
+    background-color: #a4cfd2;
     border: none;
     cursor: pointer;
     margin-right: 1rem;
@@ -30,6 +48,21 @@ body {
   }
   
   button:hover {
-    background-color: #6e5902;
+    background-color: #7d79a0;
     
+  }
+  h2 {
+    color: #1100ff;
+  }
+  h1 {
+    color: #00f2ff;
+  }
+
+  a {
+    color: #00b7ff;
+    display : inline-block;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
